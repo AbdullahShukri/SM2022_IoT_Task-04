@@ -17,6 +17,10 @@
 
 
 ## 1-Database
+Store data in the database from the control panel.</br>
+* <b> The table has two columns:</b> </br>
+1- The first column is named ID and in which the automatic numbers are stored.</br>
+2- The second column has its name DIRECTIONS and the vectors are stored in it.</br>
 </br>
 </br>
 
@@ -25,24 +29,26 @@
 </br>
 
 ## 2-Control-pane
-</br>
-</br>
+* <b> are vectors: </b> </br>
+`Right` </br>
+`Left` </br>
+`Forward` </br>
+`Backward` </br>
+`Stop`</br>
 
 ![02  control](https://user-images.githubusercontent.com/101488769/186055593-f904f7ad-98e0-4a50-b53e-d24f5bedf26d.png)
 </br>
 </br>
 
 ## 3-Displaying-page
-</br>
-</br>
+A page is the display of the last value in the vectors from the database. </br>
 
 ![03  show](https://user-images.githubusercontent.com/101488769/186055673-b1102321-ca8a-4c41-8845-c6f9b99c3cd4.png)
 </br>
 </br>
 
 ## 4-Testing
-</br>
-</br>
+Project Brief. </br>
 
 ![task04](https://user-images.githubusercontent.com/101488769/186055733-b0654ecd-4a2e-45f9-8303-af6d5b089cc4.gif)
 </br>
