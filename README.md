@@ -20,7 +20,7 @@
 Store data in the database from the control panel.</br>
 * <b> The table has two columns:</b> </br>
 1- The first column is named ID and in which the automatic numbers are stored.</br>
-2- The second column has its name DIRECTIONS and the vectors are stored in it.</br>
+2- The second column has its name DIRECTIONS and the vectors are stored in it.
 </br>
 </br>
 
@@ -28,13 +28,13 @@ Store data in the database from the control panel.</br>
 </br>
 </br>
 
-## 2-Control-panl
+## 2-Control-panel
 * <b> are vectors: </b> </br>
 `Right` </br>
 `Left` </br>
 `Forward` </br>
 `Backward` </br>
-`Stop`</br>
+`Stop`
 </br>
 </br>
 
@@ -43,7 +43,7 @@ Store data in the database from the control panel.</br>
 </br>
 
 ## 3-Displaying-page
-A page is the display of the last value in the vectors from the database. </br>
+A page is the display of the last value in the vectors from the database.
 </br>
 </br>
 
@@ -52,7 +52,7 @@ A page is the display of the last value in the vectors from the database. </br>
 </br>
 
 ## 4-Testing
-Project Brief. </br>
+Project Brief.
 </br>
 </br>
 
