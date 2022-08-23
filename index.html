@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajx.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+          
+        }
+
+        .button-1{
+            background-color:  #556B2F;
+            border: 0;
+            border-radius: 56px;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            font-weight: 900;
+            outline: 0;
+            padding: 13px 17px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: all .3s;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .button-1:before{
+            background-color: initial;
+            border-radius: 125px;
+            content: "";
+            height: 45%;
+            left: 4%;
+            opacity: .5;
+            position:absolute;
+            top: 0;
+            transition: all .3;
+            width: 85%;
+        }
+
+        .button-1:hover{
+            box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px rgba(0, 0, 0, .1) 0 10px 13px;
+            transform: scale(1.05);
+        }
+
+        @media (min-width: 768px){
+            .button-1{
+                padding: 16px 48px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <button class= "button-1" onclick="forward()" >Forward</button><br><br>
+        <button class= "button-1" onclick="right()" >Right</button>
+        <button class= "button-1" onclick="stop()" >Stop</button>
+        <button class= "button-1" onclick="left()" >Left</button><br><br>
+        <button class= "button-1" onclick="backward()" >Backward</button>
+
+    </center>
+
+    <script>
+        function forward(){
+            const Htp = new XMLHttpRequest();
+            Htp.open("GET","http://localhost/iot-task04/send.php?x=" + "Forward");
+            Htp.send();
+        }
+
+        function right(){
+            const Htp = new XMLHttpRequest();
+            Htp.open("GET","http://localhost/iot-task04/send.php?x=" + "Right");
+            Htp.send();
+        }
+
+        function stop(){
+            const Htp = new XMLHttpRequest();
+            Htp.open("GET","http://localhost/iot-task04/send.php?x=" + "Stop");
+            Htp.send();
+        }
+
+        function left(){
+            const Htp = new XMLHttpRequest();
+            Htp.open("GET","http://localhost/iot-task04/send.php?x=" + "Left");
+            Htp.send();
+        }
+
+        function backward(){
+            const Htp = new XMLHttpRequest();
+            Htp.open("GET","http://localhost/iot-task04/send.php?x=" + "Backward");
+            Htp.send();
+        }
+
+        
+    </script>
+</body>
